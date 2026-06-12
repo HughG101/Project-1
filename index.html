@@ -1,1 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
 
+//Should make this fit better on mobile devices
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Country Side Burgers</title>
+
+//Linking the CSS file to the HTML file
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+//Header section of the website
+    <header id="home">
+        <div class="header-content">
+            <img src="" alt="" class="">
+
+            <div>
+                <h1>Country Side Burgers</h1>
+                <p>Fresh burgers made with country fresh ingredients and flavours with out signature crispy fries,</p>
+            </div>
+        </div>
+    </header>
+
+//Navigation links to move to menu and other sections
+    <nav>
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#reservations">Reservations</a>
+            <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+
+//Introduction to the restaurant and its offerings
+        <section class="intro">
+            <h2>Welcome to Country Side Burgers</h2>
+
+            <p>
+                Country Side Burgers is a country style burger restaurant that offers a unique country dinning experience.
+                serving our classic country style burgers, loaded fries, and classic real milk milkshakes. We are committed
+                to a fresh and deliscious experience with our signature contry style.
+            </p>
+        </section>
+
+//Food image using a flexbox
+        <section class="food-gallery">
+            <img src="images/burger.svg" alt="Double Country Burger">
+            <img src="images/fries.svg" alt="Loaded Fries">
+            <img src="images/milkshake.svg" alt="Classic Milkshake">
+        </section>
+
+//Menu Table Section (Burgers, Sides, and Drinks)
+        <section id="menu">
+            <h2>Our Menu</h2>
+
+            <table>
+                <tr>
+                    <th>Category</th>
+                    <th>Item</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                </tr>
+
+                <tr>
+                    <td rowspan="3">Burgers</td>
+                    <td>Classic Country Burger</td>
+                    <td>A Juciy free range raised beef patty with pickles, onions, lettuce and house sauce</td>
+                    <td>$9.99</td>
+                </tr>
+
+                <tr>
+                    <td>Bacon Country Burger</td>
+                    <td>A Juciy free range raised beef patty with pickles, onions, lettuce, house sauce and Bacon</td>
+                    <td>$10.99</td>
+                </tr>
+
+                <tr>
+                    <td>Veggie Country Burger</td>
+                    <td>A delicious plant based patty with pickles, onions, lettuce and house sauce</td>
+                    <td>$11.99</td>
+
+                <tr>
+                    <td rowspan="3">Sides</td>
+                    <td>House Fries</td>
+                    <td>Crispy golden fries seasoned with our special country-style blend.</td>
+                    <td>$4.99</td>
+                </tr>
+
+                <tr>
+                    <td>Loaded Fries</td>
+                    <td>Our crispy fries topped with melted cheese, bacon bits, and green onions.</td>
+                    <td>$6.99</td>
+                
+                <tr>
+                    <td>Onion Rings</td>
+                    <td>Crispy battered onion rings served with our signature dipping sauce.</td>
+                    <td>$5.99</td>
+                </tr>
+
+                 <tr>
+                    <td rowspan="3">Drinks & Shakes</td>
+                    <td>Chocolate Country Milkshake</td>
+                    <td>Thick chocolate shake topped with whipped cream.</td>
+                    <td>$5.99</td>
+                </tr>
+
+                <tr>
+                    <td>Vanilla Country Milkshake</td>
+                    <td>Classic vanilla shake topped with whipped cream.</td>
+                    <td>$5.99</td>
+                </tr>
+
+                <tr>
+                    <td>Fountain Drink</td>
+                    <td>A variety of refreshing drinks from sods to ice tea.</td>
+                    <td>$2.99</td>
+                </tr>
+            </table>
+        </section>
+
+//Reservations Form
+        <section id="reservation" class="reservation-section"></section>
+            </div class="reservation-info">
+            <h2>Reservation Table</h2>
+        
+            <p>Planning a night out with your family or friends? 
+            Reserve a table by filling out the form below!
+            </p>
+        </div>
+
+        <form> 
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="reservation-time">Reservation Date and Time:</label>
+            <input type="datetime-local" id="reservation-time" name="reservation-time" required>
+
+            <label for="party-size">Party Size:</label>
+            <input type="number" id="party-size" name="party-size" min="1" required>
+
+            <button type="submit">Reserve Table</button>
+        </form>
+    <section>
+
+</main>
+
+<!--Footer, For contact information-->
+
+<footer id="contact">
+    <p>Country Side Burgers | 844 Contry Side Road | (616) 445-4576</p>
+    <p>&copy; 2026 Country Side Burgers. All rights reserved.</p>
+</footer>
+</body>
+</html>

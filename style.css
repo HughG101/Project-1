@@ -52,14 +52,14 @@ nav a:hover {
     color: #f2a541;
 }
 
-/* Main Content Styling */
+/* Main Content Style */
 main {
-    padding: 90%;
+    padding: 90px;
     max-width: 1200px;
     margin: 30px auto;
 }
 
-/* Box Styling */
+/* Box Style */
 section {
     margin-bottom: 30px;
     padding: 20px;
@@ -168,5 +168,4 @@ footer {
         display: block;
         margin: 10px 0;
     }
-    
 }

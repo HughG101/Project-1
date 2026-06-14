@@ -52,14 +52,14 @@ nav a:hover {
     color: #f2a541;
 }
 
-/* Main Content Style */
+/* Main Content Styling */
 main {
     padding: 90%;
     max-width: 1200px;
     margin: 30px auto;
 }
 
-/* Box Style */
+/* Box Styling */
 section {
     margin-bottom: 30px;
     padding: 20px;
@@ -164,8 +164,39 @@ footer {
         text-align: center;
     }
 
+/* attempts to make this more mobile / narrow screen friendly */
     nav a {
         display: block;
         margin: 10px 0;
+    }
+
+    main {
+        width: 95%;
+        margin: 20px auto;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    .food-images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .food-images img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto;
+        font-size: 14px;
+    }
+
+    th, td {
+        padding: 8px;
     }
 }

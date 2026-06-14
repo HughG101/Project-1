@@ -164,39 +164,7 @@ footer {
         text-align: center;
     }
 
-/* attempts to make this more mobile / narrow screen friendly */
     nav a {
         display: block;
         margin: 10px 0;
     }
-
-    main {
-        width: 95%;
-        margin: 20px auto;
-    }
-
-    section {
-        padding: 15px;
-    }
-
-    .food-images {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .food-images img {
-        width: 100%;
-        max-width: 100%;
-        height: auto;
-    }
-
-    table {
-        display: block;
-        overflow-x: auto;
-        font-size: 14px;
-    }
-
-    th, td {
-        padding: 8px;
-    }
-}

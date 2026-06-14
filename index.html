@@ -20,7 +20,7 @@
 
             <div>
                 <h1>Country Side Burgers</h1>
-                <p>Burgers made with farm fresh ingredients and country flavours</p>
+                <p>Burgers made with farm fresh ingredients and country flavors</p>
             </div>
         </div>
     </header>
@@ -40,9 +40,9 @@
             <h2>Welcome to Country Side Burgers</h2>
 
             <p>
-                Country Side Burgers is a country style burger restaurant that offers a unique country dinning experience.
+                Country Side Burgers is a country style burger restaurant that offers a unique country dining experience.
                 serving our classic country style burgers, loaded fries, and classic real milk milkshakes. We are committed
-                to a fresh and deliscious experience with our signature country style.
+                to a fresh and delicious experience with our signature country style.
             </p>
         </section>
 
@@ -116,7 +116,7 @@
 
                 <tr>
                     <td>Fountain Drink</td>
-                    <td>A variety of refreshing drinks from soads to ice tea.</td>
+                    <td>A variety of refreshing drinks from sodas to ice tea.</td>
                     <td>$2.99</td>
                 </tr>
             </table>
@@ -143,7 +143,14 @@
             <input type="datetime-local" id="reservation-time" name="reservation-time" required>
 
             <label for="party-size">Party Size:</label>
-            <input type="number" id="party-size" name="party-size" min="1" required>
+            <select id="party-size" name="party-size" required>
+                <option value="">Select</option>
+                <option value="1">1 people</option>
+                <option value="2">2 people</option>
+                <option value="3">3 people</option>
+                <option value="4">4 people</option>
+                <option value="5">5 or more people</option>
+            </select>
 
             <button type="submit">Reserve Table</button>
         </form>
@@ -154,7 +161,7 @@
 <!--Footer, For contact information-->
 
 <footer id="contact">
-    <p>Country Side Burgers | 844 Contry Side Road | (616) 445-4576</p>
+    <p>Country Side Burgers | 844 Country Side Road | (616) 445-4576</p>
     <p>&copy; 2026 Country Side Burgers. All rights reserved.</p>
 </footer>
 </body>

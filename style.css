@@ -1,4 +1,4 @@
-/* General Page style */
+/* General Page styling (text) */
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -6,7 +6,7 @@ body {
     color: #2b1d13;
 }
 
-/* Header Style */
+/* Header (contaisn Country side logo and slogan) Styling */
 header{
 background-color: #8b1e1e;
 color: white;
@@ -25,7 +25,7 @@ border-bottom: 6px solid #f2a541;
     height: 90px;
 }
 
-/* Main Headings Style and font*/
+/* Main Headings Styling and font*/
 h1, h2 {
     font-family: 'Georgia',"Comic Sans", serif;
 }
@@ -34,7 +34,7 @@ h1 {
     margin-bottom: 5px;
 }
 
-/* Navagation Bar Style */
+/* Navagation Bar Styling (home, menu, ect) */
 nav{
 background-color: #2b1d13;
 padding: 15px;
@@ -52,14 +52,14 @@ nav a:hover {
     color: #f2a541;
 }
 
-/* Main Content Style */
+/* Main Content Styling */
 main {
     padding: 90px;
     max-width: 1200px;
     margin: 30px auto;
 }
 
-/* Box Style */
+/* Box Styling */
 section {
     margin-bottom: 30px;
     padding: 20px;
@@ -72,7 +72,7 @@ section {
     text-align: center;
 }
 
-/* food images arragment and flexbox */
+/* arrangment for food images and flexbox */
 .food-images {
     display: flex;
     justify-content: center;
@@ -87,76 +87,76 @@ section {
     border-radius: 10px;
 }
 
-/* Menu Style */
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
+/* Menu Styling */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
 }
 
-th{
-    background-color: #8b1e1e;
-    color: white;
+    th{
+        background-color: #8b1e1e;
+        color: white;
 }
 
-th, td {
-    border: 1px solid #2b1d13;
-    padding: 12px;
-    text-align: left;
+    th, td {
+        border: 1px solid #2b1d13;
+        padding: 12px;
+        text-align: left;
 }
 
-/* Reservation form style with flexbox */
-form {
-    display: flex;
-    gap: 15px;
-    align-items: flex-start;
+/* Reservation form styling with flexbox */
+    form {
+        display: flex;
+        gap: 15px;
+        align-items: flex-start;
 }
 
-.reservation-info{
-    flex: 1;
+    .reservation-info{
+        flex: 1;
 }
 
-form {
-    flex: 1;
-    display: flex;
-    flex-direction: column
+    form {
+        flex: 1;
+        display: flex;
+        flex-direction: column
 }
 
-label {
-    margin-top: 10px;
-    font-weight: bold;
+    label {
+        margin-top: 10px;
+        font-weight: bold;
 }
 
-input, select {
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #8b1e1e;
-    border-radius: 5px;
+    input, select {
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #8b1e1e;
+        border-radius: 5px;
 }
 
-button {
-    margin-top: 10px;
-    padding: 10px;
-    background-color: #8b1e1e;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-weight: bold;
+    button {
+        margin-top: 10px;
+        padding: 10px;
+        background-color: #8b1e1e;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
 }
 
-button:hover {
-    background-color: #b63125;
+    button:hover {
+        background-color: #b63125;
 }
 
-/* Footer style */
-footer {
-    background-color: #2b1d13;
-    color: white;
-    text-align: center;
-    padding: 20px;
+/* footer (contact info)  styling */
+    footer {
+        background-color: #2b1d13;
+        color: white;
+        text-align: center;
+        padding: 20px;
 }
 
-/* Responsive Design */
+/* should help design be more responsive */
 @media screen and (max-width: 760px) {
     .header-content,
     .reservation-info {

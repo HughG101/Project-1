@@ -112,8 +112,10 @@ section {
         align-items: flex-start;
 }
 
-    .reservation-info{
-        flex: 1;
+    .reservation-section{
+        display: flex;
+        gap: 20px;
+        align-items: flex-start;
 }
 
     form {
@@ -159,7 +161,7 @@ section {
 /* should help design be more responsive */
 @media screen and (max-width: 760px) {
     .header-content,
-    .reservation-info {
+    .reservation-section {
         flex-direction: column;
         text-align: center;
     }
